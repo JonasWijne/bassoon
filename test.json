@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "description": "n.a.",
+  "require": {
+    "php": "^7.2.0"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ets\\etset\\": ""
+    }
+  }
+}

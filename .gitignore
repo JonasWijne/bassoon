@@ -1,0 +1,8 @@
+*.log
+
+vendor
+composer.lock
+composer.phar
+
+_lint
+.phpunit.result.cache
