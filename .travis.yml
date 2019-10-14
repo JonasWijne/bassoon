@@ -7,4 +7,6 @@ before_script:
   - wget http://getcomposer.org/composer.phar
   - php composer.phar install
 
-script: phpunit --configuration ./phpunit.xml
+script: 
+  - phpunit --configuration ./phpunit.xml
+  - infection --min-msi=48 --threads=4
